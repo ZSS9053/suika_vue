@@ -1,0 +1,115 @@
+div.container{
+  width:100%;
+  background:#F5F5F5;
+  padding:20px 90px;
+  box-sizing:border-box;
+}
+#logo{
+  margin-bottom:20px;
+}
+
+#logo span{
+   position:relative;
+   bottom:-15px;
+   left:15px;
+   font-size:16px;
+   color:#EE6392;
+   margin-left:10px;
+}
+#logo>.to-login{
+  color:#ABABAB;
+  float:right;
+}
+#user-center{
+   background:#fff;
+}
+#portal-main{
+  width:90%;
+  min-height:100px;
+  margin:0 auto;
+  padding:60px;
+}
+.user-card{
+  width:50%;
+}
+.user-card>.avatar{
+  position:relative;
+  top:-125px;
+  left:70px;
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  padding:5px;
+  border:1px solid #e0e0e0;
+}
+.user-card>.user-welcome{
+  margin-top:50px;
+  margin-right:280px
+}
+.user-welcome>p{
+  color:#b0b0b0;
+  margin:10px 0px;
+}
+.user-welcome>a{
+  color:#EE6392;
+}
+.user-action{
+   width:50%;
+   padding:20px;
+   box-sizing:border-box;
+}
+.user-action>.action-list{
+   background:#fff;
+}
+.action-list>li{
+  margin-bottom:20px;
+  font-size:14px;
+  text-align:left;
+}
+.action-list>li>a{
+  display:inline-block;
+  background:#EE6392;
+  width:70px;
+  height:25px;
+  line-height:25px;
+  text-align:center;
+  margin-left:100px;
+  color:#fff;
+}
+.action-list .address{
+  display:inline-block;
+}
+.info-list{
+  border-top:1px solid #ddd;
+  padding:30px 210px;
+  margin:10px;
+}
+.info-list>li{
+  width:400px;
+  height:120px;
+  float:left;
+  padding-left:120px;
+  box-sizing:border-box;
+  margin-bottom:60px;
+}
+.info-list>li>h3{
+  margin-top:40px;
+  margin-bottom:10px;
+  font-size:16px;
+  color:#757575;
+}
+.info-list>li>h3>.num{
+  color:#EE6392;
+}
+.info-list>li:nth-child(1){
+  background:url('../img/user_center/portal-icon-1.png') no-repeat 0px 5px;
+}
+.info-list>li:nth-child(2){
+  background:url('../img/user_center/portal-icon-2.png') no-repeat 0px 5px;
+}
+.info-list>li:nth-child(3){
+  background:url('../img/user_center/portal-icon-3.png') no-repeat 0px 5px;
+}
+.info-list>li:nth-child(4){
+  background:url('../img/user_center/portal-icon-4.png') no-repeat 0px 5px;
+}

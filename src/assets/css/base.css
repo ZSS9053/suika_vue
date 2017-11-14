@@ -1,0 +1,71 @@
+/*页面基本样式*/
+body{
+	font:12px "SimHei",Arial,Helvetica,sans-serif;
+	color:#666;
+	margin:0;
+	padding:0;
+	/*background-color:#f5f5f5;*/
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dd{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{color:#666;text-decoration:none;}
+a:hover{
+	color:#EE6392;
+	/*text-decoration:underline;*/
+}
+img{vertical-align:middle;}
+.clear:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.lf{float:left;}
+.rt{float:right;}
+div.main{
+	width:1240px;
+	margin:0 auto;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+#footer{
+	background-color:#f5f5f5;
+}
+#bread-crumb{
+	width:100%;
+}
+#bread-crumb>ul{
+	margin-left:5px;
+}
+#bread-crumb li{
+	float:left;
+	height:30px;
+	line-height:30px;
+	padding-right:25px;
+	font-weight:bold;
+	font-size:16px;
+}
+#bread-crumb li>a{
+	padding:7px 4px;
+}
+#bread-crumb li>b{
+	display:inline-block;
+	border:5px solid transparent;
+	border-left-color:#ccc;
+}
+#bread-crumb li>a.active{
+	background:#EE6392;
+}
+#bread-crumb li>a.active:hover{
+	color:#fff;
+}
+#bread-crumb>p{
+	background:linear-gradient(to bottom,#f27399 1px,#EE6392 16px,#f27399 1px);
+	border-radius:5px;
+	height:20px;
+	line-height:20px;
+	text-align:left;
+	padding-left:30px;
+}

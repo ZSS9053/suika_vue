@@ -1,0 +1,59 @@
+/*footer样式*/
+#footer .main{
+  /*background:#F5F5F5;*/
+  text-align:center;
+  margin:0 auto;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+#footer .main>ul{
+  margin:15px 377px;
+}
+#footer .main>ul>li{
+  float:left;
+  margin:0px 30px;
+}
+#footer .main>p{
+  color:#EE6392;
+  font-size:20px;
+}
+.main #input-email{
+  margin:10px 490px;
+  background:#EE6392;
+  width:250px;
+  height:26px;
+  padding:2px 5px 2px 2px;
+  border-radius:0 5px 5px 0;
+}
+.main #input-email>a{
+  color:#fff;
+  font-size:14px;
+}
+.main #input-email>a:hover{
+  text-decoration:none;
+}
+.main #input-email>input{
+  background:#fff url("../img/header/search.png") no-repeat 97%  50%;
+  outline:none;
+  border:none;
+  width:210px;
+  height:22px;
+  padding-left:5px;
+  padding-right:25px;
+}
+.main>.mod_help{
+  margin-left:240px;
+  margin-bottom:10px;
+}
+.main>.mod_help>ul{
+  float:left;
+}
+.main>.mod_help>ul li{
+  text-align:left;
+  margin-left:75px;
+  padding-top:5px;
+}
+.main>.mod_help>ul li:first-child{
+  font-weight:bold;
+  margin-bottom:5px;
+}
